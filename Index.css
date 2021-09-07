@@ -1,0 +1,57 @@
+body {
+    margin: 5% 20% 0% 20%;
+    background-color: rgb(173, 173, 173);
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+.container {
+    text-align: center;
+}
+.container h1 {
+    font-size: 40px;
+    margin-bottom: -10px;
+    margin-top: -5px;
+}
+.container h2 {
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.EXbar {
+    float: left;
+    padding-right: 20px;
+}
+
+.VL {
+    border-left: thick solid black;
+  }
+
+.VL UL {
+    text-align: start;
+    padding-right: 30%;
+}
+
+ul.Column {
+    columns: 2 auto;
+    border-left: thick solid Black;
+}
+
+footer {
+    height: 30%;
+    padding: 2% 5% 5% 5%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
