@@ -1,19 +1,41 @@
+/* General & Misc Organization Portion */
+/* NOTES! 
+    - 9/12/2021 XM Trying to get an image for a Sidebar to put below .Container Portion detailing general Image of myself, Phone Camera not working. & Not understanding how to Seperate Body's "General" Margins from Sidebar Margins (I want it to be off to the left side, might be too much. 
+        - Edit: Will be Unlikely to use Place Holder Images & Cannot recover old projects from prior Computer
+            - Further Edit Found Some artworks on Imgur
+    
+    */
+
 body {
-    margin: 5% 20% 0% 20%;
-    background-color: rgb(173, 173, 173);
+    margin: 5% 20% 0% 15%;
+    background-color: rgb(212, 209, 209);
 }
 
 main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-    text-decoration: underline;
+a{
+    text-decoration: none;
     color: black;
 }
 
+.sidebar {
+    float: left;
+    margin-right: 5px;
+    border: 1px black solid;
+}
+
+/* Fine Tuning Section "Titles" 
+    - 9/12/2021 XM There has to be a better way to Do this, I thought I could put one .Container Into another? 
+        -8:31pm Finally Fixed & Realized why .Container wasn't working I didn't Include a </section> before.
+    */
+
 .container {
     text-align: center;
+    text-shadow: 5px 5px lightskyblue;
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
 .container h1 {
     font-size: 40px;
@@ -25,13 +47,46 @@ a {
     margin-bottom: -10px;
 }
 
+.work h2 {
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+
+.summary h3 {
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.work h4 {
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.project h2 {
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+
+.edu h2 {
+    font-family: "Cambria", "Cochin", Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+
+/* Column Organization Portion 
+    - 9/12/2021 XM This Portion will remain generally Untouched unless there's an error REMEMBER DO NOT TOUCH! 
+        -8:24pm Touched it, Just changed "Thick" to 15px across.
+    */
+
 .EXbar {
     float: left;
     padding-right: 20px;
+    border-left: 15px solid rgb(51, 153, 51);
 }
 
 .VL {
-    border-left: thick solid black;
+    border-left: 15px solid rgb(8, 74, 94);
   }
 
 .VL UL {
@@ -39,10 +94,15 @@ a {
     padding-right: 30%;
 }
 
-ul.Column {
+ul.column {
     columns: 2 auto;
-    border-left: thick solid Black;
+    border-left: 15px solid rgb(8, 58, 150);
 }
+
+/* Footer Organization Portion 
+    - 9/12/2021 XM what else needs to be added here? I have my Links, maybe I should Include the Icons from each website? Will Include portion later. 
+    
+    */
 
 footer {
     height: 30%;
